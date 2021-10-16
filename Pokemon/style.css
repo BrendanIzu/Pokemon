@@ -1,0 +1,66 @@
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  background-color: #98D0B0;
+  height: 400px;
+  padding-top: 30px;
+  height: 700px;
+  margin: none;
+}
+
+.btn-container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.btn-outline-secondary {
+  margin-top: 150px;
+  width: 40px;
+  height: 40px;
+  padding: 6px 0px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.42857;
+}
+
+.form-control {
+  width: 500px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  background-image: url("images/pokegrass.png");
+  background-color: #A0E987;
+  height: 700px;
+}
+
+.pokemon-container {
+  background-color: white;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+body {
+  background-image: url("images/pokegrass.png");
+}
